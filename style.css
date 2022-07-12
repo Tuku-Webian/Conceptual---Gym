@@ -10,7 +10,7 @@
     padding: 10px;
 }
 .logo h1{
-    margin: 5px 20px;
+    margin: 5px 18px;
 }
 .logo{
     margin-left: 20px;
@@ -22,20 +22,20 @@
 .logo img{
     padding-top: 2px;
 }
-.menu ul{
+nav ul{
     margin: 15px;
     display: flex;
     list-style: none;
 }
-.menu li{
+nav li{
     display: inline-block;
 }
-.menu ul li a{
+nav ul li a{
     margin: 8px;
     text-decoration: none;
     color: white;
 }
-.menu ul li a:hover{
+nav ul li a:hover{
     color: orange;
 }
 .bannar-container{
