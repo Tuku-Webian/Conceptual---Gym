@@ -208,6 +208,7 @@ nav ul li a:hover{
     margin: 2% 3% 0 3%;
 }
 .fitness-traning{
+    color: blue;
     background-color: white;
     margin-bottom: 10%;
     box-shadow: 1px 3px 15px gray;
@@ -219,6 +220,12 @@ nav ul li a:hover{
 }
 .fitness-traning h2, h3, h4, h5{
     padding: 3% 7%;
+}
+.training-footer{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 7% 3% 0;
 }
 footer{
     border-top: 2px solid lightgray;
