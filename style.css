@@ -229,19 +229,19 @@ nav ul li a:hover{
 }
 footer{
     border-top: 2px solid lightgray;
-    background-color: #0B0D17;
+    background-color: #e1e5ff;
     text-align: center;
     padding: 4% 0;
 }
 footer a{
     margin: 1%;
     text-decoration: none;
-    color: rgb(76, 250, 235);
+    color: rgb(24, 46, 44);
     font-size: 20px;
     font-weight: bold;
 }
 footer p{
-    color: white;
+    color: rgb(255, 58, 58);
     margin-top: 1%;
 }
 #name{
