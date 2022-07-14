@@ -149,13 +149,14 @@
     margin: -6% 2% 6% 2%;
 }
 .about-container{
-    background: rgb(255, 240, 240);
-    padding-bottom: 8%;
+    background: black;
+    /* padding-bottom: 8%; */
 }
 .about-header h1{
     font-size: 40px;
     text-align: center;
     padding: 4%;
+    color: white;
 }
 .photo{
     display: flex;
@@ -164,7 +165,7 @@
     /* margin-top: 3%; */
     width: 300px;
     height: 450px;
-    transform: skewx(-10deg);
+    transform: skewy(-10deg);
 }
 .photo-info{
     display: flex;
@@ -258,15 +259,15 @@
     padding: 3% 7% 3% 0;
 }
 footer{
-    border-top: 2px solid lightgray;
-    background-color: #e1e5ff;
+    border-top: 2px solid rgb(252, 23, 23);
+    background-color: #000000;
     text-align: center;
     padding: 4% 0;
 }
 footer a{
     margin: 1%;
     text-decoration: none;
-    color: rgb(24, 46, 44);
+    color: rgb(88, 255, 241);
     font-size: 20px;
     font-weight: bold;
 }
