@@ -2,40 +2,70 @@
     margin: 0;
     padding: 0;
 }
-.menu-container{
+.menubar{
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: white;
     padding: 10px;
 }
-.logo h1{
-    margin: 5px 18px;
+.logo img{
+    padding: .5% 2% 0 0;
+
 }
 .logo{
-    margin-left: 20px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
     display: flex;
 }
-.logo img{
-    padding-top: 2px;
+.logo-title{
+    padding: 0 1%;
+    font-size: 40px;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: .10em solid #FF8D8D;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .8rem;
+    animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
 }
-nav ul{
+@keyframes demo-typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes demo-cursor {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #FF8D8D;
+    }
+}
+/* nav ul{
     margin: 15px;
     display: flex;
     list-style: none;
+} */
+.menu-items{
+    padding: 1.5% 2% 0 0;
 }
-nav li{
+.menu-items li{
     display: inline-block;
 }
-nav ul li a{
+.menu-items li a{
     margin: 8px;
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
-nav ul li a:hover{
+.menu-items li a:hover{
     color: orange;
 }
 .bannar-container{
